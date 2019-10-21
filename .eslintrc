@@ -1,0 +1,20 @@
+  
+{
+  "extends": ["airbnb"],
+  "rules": {
+    "comma-dangle": 0,
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+  },
+  "overrides":  [
+    {
+      "files": ["server/*.js"],
+      "rules": {
+        "no-console": 0
+      }
+    }
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
