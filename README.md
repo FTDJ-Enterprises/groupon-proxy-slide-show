@@ -15,6 +15,14 @@
 
 `npm run start:dev` -- will run the development server and watch for changes.
 
+**Test**
+
+This project uses [jest](https://jestjs.io/) for testing.
+
+`npm test` -- runs jest without coverage.
+
+`npm run test:coverage` -- runs jest with coverage.
+
 **Installing Dependencies**
 
 From within the root directory:
