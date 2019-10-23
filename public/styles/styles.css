@@ -1,0 +1,178 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/******************************/
+/**** MENUS *******************/
+/******************************/
+
+.menu {
+  box-sizing: border-box;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0px;
+  width: 1080px;
+  margin: auto;
+  letter-spacing: .5px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 0px 13px;
+  font-size: 12px;
+}
+
+.menu .sub {
+  background-color: #338700;
+  padding: 5px 0px;
+}
+
+.menu .sub ul {
+  justify-content: flex-end;
+  padding: 2px;
+}
+
+.menu .sub ul a {
+  color: white;
+}
+
+.menu .sub li:last-child > a {
+  padding-right: 0px;
+}
+
+.menu .main {
+  background-color: #53a318;
+  padding: 3px;
+}
+
+.menu .main img {
+  width: 1080px;
+  margin: auto;
+  display: block;
+}
+
+.menu .lower {
+  border-bottom: 1px solid #d5d8db;
+}
+
+.menu .lower ul {
+  padding: 15px 0px;
+}
+
+.menu .lower ul a {
+  color: #707174;
+}
+.menu .lower li:first-child > a {
+  padding-left: 0px;
+}
+
+/******************************/
+/**** WRAPPPER ****************/
+/******************************/
+
+.main-wrapper {
+  width: 1080px;
+  margin: auto;
+}
+
+.ad {
+  padding: 15px 0px;
+}
+
+.ad img {
+  width: 1080px;
+  margin: auto;
+  display: block;
+}
+
+/******************************/
+/**** PRODUCT-HEADER **********/
+/******************************/
+
+.product-header .product-name {
+  margin-bottom: 0px;
+}
+
+.product-header .manufacturer {
+  font-size: 14px;
+  color: #707174;
+}
+
+.product-header .header-stars {
+  width: 200px;
+}
+
+/******************************/
+/**** PRODUCT-MAIN ************/
+/******************************/
+
+.product-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-main .left {
+  width: 60%;
+  border-right: 1px solid #d5d8db;
+  padding-right: 20px;
+  color: #333;
+}
+
+.product-main .left h3 {
+  font-size: 24px;
+}
+
+.product-main .left a {
+  color: #0076d6;
+  text-decoration: none;
+}
+
+.product-main .left a:hover {
+  text-decoration: underline;
+}
+
+.product-main .right {
+  width: 40%;
+}
+
+.product-main .left p,
+.product-main .left li,
+.product-main .left a,
+.product-main .left p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.product-main .purchase-details {
+  width: 95%;
+  margin: 0px auto;
+  position: sticky;
+  top: 0px;
+}
+
+.also-bought img, 
+.recently-viewed img, 
+.popular-searches img {
+  width: 100%;
+  margin:70px 0px;
+}
+
+/******************************/
+/**** FOOTER ******************/
+/******************************/
+
+.footer {
+  border-top: 1px solid #d5d8db;
+  padding: 40px 0px;
+}
+
+.footer img {
+  width: 1080px;
+  display: block;
+  margin: auto;
+}
