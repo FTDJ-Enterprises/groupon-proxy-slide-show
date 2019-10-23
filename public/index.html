@@ -4,11 +4,95 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+  <link href="styles/normalize.css" rel="stylesheet" type="text/css"/>
+  <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
   <title>GROUPONe Clone</title>
 </head>
 <body>
-  <div id="slide-show"></div>
-  <div id="reviews"></div>
+  <div class="menu">
+    <div class="sub">
+      <ul>
+        <li><a href="#">Sell</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Sign Up</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <img src="/ui-mock-pictures/mainMenu.png" alt="Mocked main menu">
+    </div>
+    <div class="lower">
+      <ul>
+        <li><a href="#">Featured</a></li>
+        <li><a href="#">Things To Do</a></li>
+        <li><a href="#">Beauty & Spas</a></li>
+        <li><a href="#">Featured</a></li>
+        <li><a href="#">Goods</a></li>
+        <li><a href="#">Travel</a></li>
+        <li><a href="#">Coupons</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="main-wrapper">
+    <div class="ad">
+      <img src="/ui-mock-pictures/topAd.png" alt="Mock top ad">
+    </div>
+    <div class="product-header">
+      <h1 class="product-name">Milanese Stainless Steel Band Quick Release Wrist Strap For Fitbit Inspire HR</h1>
+      <p class="manufacturer">Sold by Windrew</p>
+      <p><img class="header-stars" src="/ui-mock-pictures/headerStars.png" alt="Mock header stars"></p>
+    </div>
+    <div class='product-main'>
+      <div class="left">
+          <div id="slide-show"></div>
+          <h3>Highlights</h3>
+          <p>Keep your car documents safe and always with you in this functional holder with clear vinyl windows</p>
+          <br>
+          <h3>Product Details</h3>
+          <h4>Car Insurance, Registration, and Document Holders (2-Pack)</h4>
+          <ul>
+            <li>Easy way to keep all essential car documents in one place</li>
+            <li>2 inner pockets</li>
+            <li>Clear vinyl window</li>
+            <li>Features hook-and-loop closures</li>
+            <li>Water-resistant construction</li>
+            <li>Dimensions: 5” x 4”</li>
+          </ul>
+          <hr>
+          <p><em>For post-purchase inquiries, please contact <a href="#">customer support.</a></em></p>
+          <p><em>Sold by Groupon Goods. Fiew the <a href="#">FAQ</a> to learn more.</em></p>
+          <br>
+          <h3>More Info</h3>
+          <ul>
+              <li><a href="#">Free returns</a></li>
+              <li>Most orders are delivered within 7 business days from the purchase date. <a href="#">Shipping questions?</a></li>
+              <li>Does not ship to PO boxes/AK/HI/Puerto Rico</li>
+              
+              <li><a href="#">How is the strike-through price determined?</a></li>
+            <li>Most Canadian orders are delivered within 7-10 business days from the purchase date.</li><li>Warranties offered with select products are valid only on US purchases.</li>
+          </ul>
+      </div>
+      <div class="right">
+        <img class="purchase-details" src="/ui-mock-pictures/purchaseDetails.png" alt="Mock purchase details">
+      </div>
+    </div>
+    <div class="also-bought">
+      <img src="/ui-mock-pictures/alsoBought.png" alt="Mock also bought">
+    </div>
+    <div id="reviews"></div>
+    <div class="recently-viewed">
+      <img src="/ui-mock-pictures/recentlyViewed.png" alt="Mock recently viewed">
+    </div>
+    <div class="popular-searches">
+      <img src="/ui-mock-pictures/popularSearches.png" alt="Mock popular searches">
+    </div>
+    <div class="ad">
+      <img src="/ui-mock-pictures/bottomAd.png" alt="Mock bottom ad">
+    </div>
+  </div>
+  <div class="footer">
+    <img src="/ui-mock-pictures/footerMenu.png" alt="Mock footer menu">
+  </div>
   <script src="http://localhost:3002/vendor.bundle.js"></script>
   <script src="http://localhost:3002/main.bundle.js"></script>
   <script src="http://localhost:3001/main.bundle.js"></script>
