@@ -1,0 +1,6 @@
+PORT=3000
+
+# Set URLs for the slide-show server and the reviews-server
+
+SLIDE_SHOW_SERVER=
+REVIEWS_SERVER=
