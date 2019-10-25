@@ -40,3 +40,9 @@ From within the root directory:
 ```sh
 npm install
 ```
+
+**Docker**
+
+For use with docker, simply update the `.env` file (see above) and then build the docker image: `docker build -t proxy-server .`
+
+Then spin up the container: `docker run -p 3000:3000 proxy-server`.
