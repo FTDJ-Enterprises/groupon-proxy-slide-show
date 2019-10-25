@@ -1,9 +1,12 @@
 const express = require('express');
-const app = express();
 const request = require('request');
+const compression = require('compression');
+
+const app = express()
 
 require('dotenv').config();
 
+app.use(compression());
 app.use('/', express.static('public'));
 
 const proxyRequest = (url, req, res, next) => {

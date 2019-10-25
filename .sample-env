@@ -1,4 +1,4 @@
 # Set URLs for the slide-show server and the reviews-server
 
-SLIDE_SHOW_SERVER=http://ec2-34-217-89-110.us-west-2.compute.amazonaws.com:3001
-REVIEWS_SERVER=http://ec2-18-236-153-219.us-west-2.compute.amazonaws.com:3002
+SLIDE_SHOW_SERVER=http://some-ec2-instance.com
+REVIEWS_SERVER=http://some-ec2-instance.com
