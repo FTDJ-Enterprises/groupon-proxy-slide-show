@@ -9,6 +9,16 @@
 
 ## Usage
 
+**Set the Module Server Locations**
+
+1. Create a `.env` file at root: `touch .env`.
+2. Fill in the url locations of the servers for the slide-show and reviews components. For example:
+
+```
+SLIDE_SHOW_SERVER=http://some-ec2-server.com:port
+REVIEWS_SERVER=http://some-ec2-server.com:port
+```
+
 **Start the Server**
 
 `npm start` -- will run the server.
